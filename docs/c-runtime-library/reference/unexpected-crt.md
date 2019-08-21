@@ -29,7 +29,7 @@ ms.locfileid: "62155486"
 ---
 # <a name="unexpected-crt"></a>unexpected (CRT)
 
-呼び出し**終了**または関数を使用して指定する**set_unexpected**します。
+呼び出し**terminate**または関数を使用して指定する**set_unexpected**します。
 
 ## <a name="syntax"></a>構文
 
@@ -39,7 +39,7 @@ void unexpected( void );
 
 ## <a name="remarks"></a>Remarks
 
-**予期しない**ルーチンは、C++ 例外処理の現在の実装では使用されません。 **予期しない**呼び出し**終了**既定。 この既定の動作を変更するには、カスタム終了関数を作成し、呼び出すことによって**set_unexpected**引数として関数の名前に置き換えます。 **予期しない**への引数として渡された最後関数を呼び出す**set_unexpected**します。
+**unexpected**ルーチンは、C++ 例外処理の現在の実装では使用されません。 **unexpected**呼び出し**terminate**既定。 この既定の動作を変更するには、カスタム終了関数を作成し、呼び出すことによって**set_unexpected**引数として関数の名前に置き換えます。 **unexpected**への引数として渡された最後関数を呼び出す**set_unexpected**します。
 
 ## <a name="requirements"></a>必要条件
 
