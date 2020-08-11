@@ -445,7 +445,7 @@ void SetPageButtonTextAlign(
 [in]テキストの配置を指定します。
 
 *引き出し*<br/>
-[in]TRUE の場合、見通しウィンドウが再描画されます。
+[in]TRUE の場合、Outlook ウィンドウが再描画されます。
 
 ### <a name="remarks"></a>解説
 
