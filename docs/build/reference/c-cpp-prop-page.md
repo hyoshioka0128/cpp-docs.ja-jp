@@ -1,6 +1,6 @@
 ---
-title: C/c + + プロジェクトのプロパティ (Visual Studio)
-description: Visual Studio の Microsoft C/c + + プロジェクトプロパティページのプロパティに関するリファレンスガイドです。
+title: C/C++ プロジェクトのプロパティ (Visual Studio)
+description: Visual Studio の Microsoft C/C++ プロジェクトプロパティページのプロパティに関するリファレンスガイドです。
 ms.date: 07/08/2020
 ms.topic: article
 ms.assetid: 16375038-4917-4bd0-9a2a-26343c1708b7
@@ -11,11 +11,11 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 07/27/2020
 ms.locfileid: "87229741"
 ---
-# <a name="cc-property-pages"></a>C/c + + プロパティページ
+# <a name="cc-property-pages"></a>C/C++ プロパティページ
 
-次のプロパティページは、[**プロジェクト**のプロパティ] [  >  **Properties**  >  **構成プロパティ**] [  >  **c/c + +**] の下にあります。
+次のプロパティページは、[**プロジェクト**のプロパティ] [  >  **Properties**  >  **構成プロパティ**] [  >  **C/C++**] の下にあります。
 
-## <a name="cc-general-properties"></a>C/c + + の全般プロパティ
+## <a name="cc-general-properties"></a>C/C++ の全般プロパティ
 
 ### <a name="additional-include-directories"></a>追加のインクルード ディレクトリ
 
@@ -98,7 +98,7 @@ Windows ランタイム言語拡張機能を使用します。 [`/ZW`](zw-window
 
 複数プロセッサによるコンパイルです。
 
-## <a name="cc-optimization-properties"></a>C/c + + の最適化のプロパティ
+## <a name="cc-optimization-properties"></a>C/C++ の最適化のプロパティ
 
 ### <a name="optimization"></a>Optimization
 
@@ -149,7 +149,7 @@ Windows ランタイム言語拡張機能を使用します。 [`/ZW`](zw-window
 
 コード生成をリンク時間に遅延させることで、モジュール間の最適化を有効にします。 リンカーオプションの [リンク時のコード生成] が必要です。 [`/GL`](gl-whole-program-optimization.md)を設定します。
 
-## <a name="cc-preprocessor-properties"></a>C/c + + プリプロセッサのプロパティ
+## <a name="cc-preprocessor-properties"></a>C/C++ プリプロセッサのプロパティ
 
 ### <a name="preprocessor-definitions"></a>プリプロセッサの定義
 
@@ -179,7 +179,7 @@ C と C++ のソースファイルをプリプロセスし、前処理された�
 
 ソースコードからコメントを削除しません。' 前処理 ' オプションの1つを設定する必要があります。 [`/C`](c-preserve-comments-during-preprocessing.md)を設定します。
 
-## <a name="cc-code-generation-properties"></a>C/c + + コード生成のプロパティ
+## <a name="cc-code-generation-properties"></a>C/C++ コード生成のプロパティ
 
 ### <a name="enable-string-pooling"></a>文字列プールを有効にする
 
@@ -305,7 +305,7 @@ CVE 2017-5753 の Spectre 軽減策。 [`/Qspectre`](qspectre.md)を設定しま
 - **Enabled** -Spectre 軽減機能を CVE 2017-5753 に対して有効にします。
 - **Disabled** -設定されていません。
 
-## <a name="cc-language-properties"></a>C/c + + 言語のプロパティ
+## <a name="cc-language-properties"></a>C/C++ 言語のプロパティ
 
 ### <a name="disable-language-extensions"></a>言語拡張機能を無効にする
 
@@ -354,7 +354,7 @@ OpenMP 2.0 言語拡張を有効にします。 [`/openmp`](openmp-enable-openmp
 
 C++ モジュール TS および標準ライブラリモジュールの実験的なサポート。
 
-## <a name="cc-precompiled-headers-properties"></a>C/c + + プリコンパイル済みヘッダーのプロパティ
+## <a name="cc-precompiled-headers-properties"></a>C/C++ プリコンパイル済みヘッダーのプロパティ
 
 ### <a name="createuse-precompiled-header"></a>プリコンパイル済みヘッダーの作成/使用
 
@@ -374,7 +374,7 @@ C++ モジュール TS および標準ライブラリモジュールの実験的
 
 生成されたプリコンパイル済みヘッダーファイルのパスまたは名前を指定します。 [`/Fp`](fp-name-dot-pch-file.md)を設定します。
 
-## <a name="cc-output-files-properties"></a>C/c + + 出力ファイルのプロパティ
+## <a name="cc-output-files-properties"></a>C/C++ 出力ファイルのプロパティ
 
 ### <a name="expand-attributed-source"></a>属性ソースの展開
 
@@ -416,7 +416,7 @@ ASM リスティングファイルの相対パスまたは名前を指定しま�
 
 生成された XML ドキュメントファイルの名前を指定します。ファイル名またはディレクトリ名を指定できます。 [`/doc:`\<name>](doc-process-documentation-comments-c-cpp.md)を設定します。
 
-## <a name="cc-browse-information-properties"></a>C/c + + の参照情報のプロパティ
+## <a name="cc-browse-information-properties"></a>C/C++ の参照情報のプロパティ
 
 ### <a name="enable-browse-information"></a>ブラウザー情報の有効化
 
@@ -426,7 +426,7 @@ ASM リスティングファイルの相対パスまたは名前を指定しま�
 
 ブラウザー情報ファイルの省略可能な名前を指定します。 [`/FR`\<name>](fr-fr-create-dot-sbr-file.md)を設定します。
 
-## <a name="cc-advanced-properties"></a>C/c + + の詳細プロパティ
+## <a name="cc-advanced-properties"></a>C/C++ の詳細プロパティ
 
 ### <a name="calling-convention"></a>呼び出し規則
 
