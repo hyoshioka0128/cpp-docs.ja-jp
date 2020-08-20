@@ -1,5 +1,5 @@
 ---
-title: 'チュートリアル: C/c + + コード分析による欠陥の分析'
+title: 'チュートリアル: C/C++ コード分析による欠陥の分析'
 description: Visual Studio で Microsoft C++ でコード分析を使用する方法について説明します。
 ms.date: 04/14/2020
 ms.topic: conceptual
@@ -15,9 +15,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 07/27/2020
 ms.locfileid: "87227713"
 ---
-# <a name="walkthrough-analyzing-cc-code-for-defects"></a>チュートリアル: C/c + + コード分析による欠陥の分析
+# <a name="walkthrough-analyzing-cc-code-for-defects"></a>チュートリアル: C/C++ コード分析による欠陥の分析
 
-このチュートリアルでは、C/c + + コードを分析して、潜在的なコード障害を把握する方法について説明します。 C/c + + コードのコード分析ツールを使用します。
+このチュートリアルでは、C/C++ コードを分析して、潜在的なコード障害を把握する方法について説明します。 C/C++ コードのコード分析ツールを使用します。
 
 このチュートリアルでは、次のことについて説明します。
 
@@ -29,7 +29,7 @@ ms.locfileid: "87227713"
 ## <a name="prerequisites"></a>前提条件
 
 - [Cppdemo サンプル](../code-quality/demo-sample.md)のコピー。
-- C/c + + に関する基本的な知識。
+- C/C++ に関する基本的な知識。
 
 ## <a name="run-code-analysis-on-native-code"></a>ネイティブコードでコード分析を実行する
 
