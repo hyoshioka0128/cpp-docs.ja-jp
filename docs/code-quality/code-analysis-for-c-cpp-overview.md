@@ -25,7 +25,7 @@ ms.locfileid: "79467263"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++ のコード分析の概要
 
-C/C++コード分析ツールは、c/C++ソースコードで発生する可能性のある欠陥に関する情報を提供します。 このツールで報告される一般的なコーディング エラーとして、バッファー オーバーラン、初期化されていないメモリ、Null ポインターの逆参照、メモリ リーク、リソース リークなどがあります。 このツールでは、 [ C++コアガイドライン](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)に対してチェックを実行することもできます。
+C/C++ コード分析ツールは、C/C++ ソースコードで発生する可能性のある欠陥に関する情報を提供します。 このツールで報告される一般的なコーディング エラーとして、バッファー オーバーラン、初期化されていないメモリ、Null ポインターの逆参照、メモリ リーク、リソース リークなどがあります。 このツールでは、 [C++ コアガイドライン](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)に対してチェックを実行することもできます。
 
 ## <a name="ide-integrated-development-environment-integration"></a>IDE (統合開発環境) の統合
 
@@ -49,7 +49,7 @@ C:\>cl /analyze Sample.cpp
 
 ## <a name="annotation-support"></a>注釈のサポート
 
-注釈によってコード分析の精度が向上します。 注釈には、関数のパラメーターと戻り値の型について、事前および事後の状態に関する追加情報を指定します。 詳細については、「 [SAL 注釈を使用しC++て C/コードの欠陥を減らす](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)」を参照してください。
+注釈によってコード分析の精度が向上します。 注釈には、関数のパラメーターと戻り値の型について、事前および事後の状態に関する追加情報を指定します。 詳細については、「[SAL 注釈を使って C/C++ のコード障害を減らす方法](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)」を参照してください。
 
 ## <a name="run-analysis-tool-as-part-of-check-in-policy"></a>チェックイン ポリシーの一部としての分析ツールの実行
 
@@ -61,7 +61,7 @@ C:\>cl /analyze Sample.cpp
 
 ## <a name="see-also"></a>参照
 
-- [クイックスタート: C/のコード分析C++](quick-start-code-analysis-for-c-cpp.md)
+- [クイックスタート: C/C++ のコード分析](quick-start-code-analysis-for-c-cpp.md)
 - [チュートリアル: C/C++コードを分析して欠陥を分析する](walkthrough-analyzing-c-cpp-code-for-defects.md)
 - [C/C++ コードの警告に対応するコードの分析](code-analysis-for-c-cpp-warnings.md)
 - [C++ Core ガイドライン チェッカーの使用](using-the-cpp-core-guidelines-checkers.md)
