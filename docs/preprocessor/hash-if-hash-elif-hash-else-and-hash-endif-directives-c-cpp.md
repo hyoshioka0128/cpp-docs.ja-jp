@@ -28,7 +28,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 07/27/2020
 ms.locfileid: "87231599"
 ---
-# <a name="if-elif-else-and-endif-directives-cc"></a>#if、#elif、#else、および #endif ディレクティブ (C/c + +)
+# <a name="if-elif-else-and-endif-directives-cc"></a>#if、#elif、#else、および #endif ディレクティブ (C/C++)
 
 **#If**ディレクティブは、 **#elif**、 **#else**、および **#endif**ディレクティブを使用して、ソースファイルの一部のコンパイルを制御します。 ( **#If**の後に) 記述する式が0以外の値を持つ場合、 **#if**ディレクティブの直後の行グループが翻訳単位に保持されます。
 
