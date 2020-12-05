@@ -45,7 +45,7 @@ Visual Studio の以前のバージョンにも、C++ のサンプル コード�
 | [ATLDuck](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | ATL コントロールでのコネクション ポイントの使用例を示します。 |
 | [ATLSecurity](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | ATL セキュリティ クラスを使用してセキュリティ設定を確認する方法を示します。 |
 | [ATLTraceTool](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | `ATLTRACE2` マクロで生成された出力を表示します。 |
-| [のインスタンスに接続するときには、](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | マルチスレッド環境でのコネクション ポイント (IConnectionPointContainer インターフェイスおよび IConnectionPoint インターフェイス) の実装と使用を示します。 |
+| [Connect](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | マルチスレッド環境でのコネクション ポイント (IConnectionPointContainer インターフェイスおよび IConnectionPoint インターフェイス) の実装と使用を示します。 |
 | [CThreadPool](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | アプリケーションでのスレッド プールの使い方、およびスレッド プールの実装によってアプリケーションのパフォーマンスを向上させる方法を示します。 |
 | [DCOM](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | 異なるコンピューターで実行されている複数のクライアントから (Windows サービスに実装された) COM オブジェクトを呼び出す方法を示します。 |
 | [MFCATL](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ATL/Advanced) | MFC サーバー EXE での ATL COM オブジェクトの使い方を示します。 |
@@ -114,7 +114,7 @@ Visual Studio の以前のバージョンにも、C++ のサンプル コード�
 | [ADOSamp](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | 3 階層のクライアント/サーバー アプリケーションを実装します。 |
 | [AllInOne](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | ATL を使用し、STL コレクションを公開し、MFC アプリケーションのコンパイラ COM サポートにより制御されたサーバーを実装します。 |
 | [COMMap](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | コンパイラ COM サポートを使用した COM インターフェイス マップ エントリ マクロを示します。 |
-| [のインスタンスに接続するときには、](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | マルチスレッド環境でのコネクション ポイント (`IConnectionPointContainer` インターフェイスと `IConnectionPoint` インターフェイス) の使用と実装を示します。 |
+| [CustomString](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | マルチスレッド環境でのコネクション ポイント (`IConnectionPointContainer` インターフェイスと `IConnectionPoint` インターフェイス) の使用と実装を示します。 |
 | [DCOM](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | 異なるコンピューターで実行されている複数のクライアントから (Windows サービスに実装された) COM オブジェクトを呼び出す方法を示します。 |
 | [FreeThrd](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | コンパイラ COM サポートを使用したマルチスレッド クライアントとフリー スレッド サーバーの例を示します。 |
 | [InProc](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/ComTypeLibfor7) | コンパイラ COM サポートを使用したインプロセス Automation サーバー アプリケーションの例を示します。 |
@@ -212,7 +212,7 @@ Visual Studio の以前のバージョンにも、C++ のサンプル コード�
 | [Circ](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | ActiveX コントロールの基本を示します。 コントロールの描画、ストック プロパティとカスタム プロパティ、ストック イベントとカスタム イベント、色やフォントの使い方、ストックのフォント プロパティ ページ、既定のプロパティ ページ、バージョン管理などです。 |
 | [CmnCtrl](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | wiprlhext の MFC で利用できる新しいコントロールの一部を示します。コマンド リンク ボタン (`CButton`)、ページャー コントロール (`CPagerCtrl`)、分割ボタン (`CSplitButton`)、ネットワーク アドレス コントロール (`CNetAddressCtrl`) などです。 |
 | [Contain](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | ビジュアル編集コンテナー アプリケーションを示します。 |
-| [イメージ](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | MFC を使用して、非同期にデータをダウンロードする ActiveX コントロールを作成する方法を示します。 |
+| [Image](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | MFC を使用して、非同期にデータをダウンロードする ActiveX コントロールを作成する方法を示します。 |
 | [Licensed](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | デザイン時および実行時のライセンスの使用を強制するコントロールです。 |
 | [Localize](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | ローカライズされたユーザー インターフェイスを持つコントロールです。個別のタイプ ライブラリとリソースのダイナミック リンク ライブラリ (DLL: Dynamic-Link Library) を使用したローカライズの例を示します。 |
 | [NetAddr](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/controls) | Windows Vista の "ネット アドレス検証ツール" コントロールの使用例を示します。 |
@@ -304,7 +304,7 @@ Visual Studio の以前のバージョンにも、C++ のサンプル コード�
 | [DlgToolTips](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | ダイアログ ボックスのコントロールに高度なツールヒントを実装する方法を示します。 |
 | [DrawClient](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | 編集コンテナー サポートを含む描画アプリケーションにリボンのサポートを統合する方法を示します。 |
 | [DynamicMenu](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | メニュー バーのメニューおよびポップアップ メニューを実行時に動的に更新する方法を示します。 |
-| [エクスプローラー](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | ファイル エクスプローラーに似ているファイル システム エクスプローラーを実装する方法を示します。 これは、類似したユーザー インターフェイスの要素と機能を備えています。 |
+| [Explorer](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | ファイル エクスプローラーに似ているファイル システム エクスプローラーを実装する方法を示します。 これは、類似したユーザー インターフェイスの要素と機能を備えています。 |
 | [IEDemo](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | Internet Explorer に似たユーザー インターフェイスの要素と機能を持つアプリケーションの実装方法を示します。 |
 | [MDITabsDemo](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | 従来の MDI 子ウィンドウではなく、新しいタブ付き MDI ドキュメント インターフェイスを使用するアプリケーションの作成方法を示します。 |
 | [MenuSubSet](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/MFC/Visual%20C%2B%2B%202008%20Feature%20Pack) | 特定のメニュー項目およびサブメニューをアプリケーションの起動時に動的に削除する方法を示します。 |
