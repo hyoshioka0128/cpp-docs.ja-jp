@@ -79,7 +79,7 @@
               href: ../build-insights/reference/sdk/functions/stop-tracing-session-w.md
         - name: イベント データ型 (C++)
           items:
-            - name: アクティビティ
+            - name: Activity
               href: ../build-insights/reference/sdk/cpp-event-data-types/activity.md
             - name: BackEndPass
               href: ../build-insights/reference/sdk/cpp-event-data-types/back-end-pass.md
@@ -93,7 +93,7 @@
               href: ../build-insights/reference/sdk/cpp-event-data-types/code-generation.md
             - name: CommandLine
               href: ../build-insights/reference/sdk/cpp-event-data-types/command-line.md
-            - name: コンパイラ
+            - name: Compiler
               href: ../build-insights/reference/sdk/cpp-event-data-types/compiler.md
             - name: CompilerPass
               href: ../build-insights/reference/sdk/cpp-event-data-types/compiler-pass.md
@@ -121,17 +121,17 @@
               href: ../build-insights/reference/sdk/cpp-event-data-types/front-end-file-group.md
             - name: FrontEndPass
               href: ../build-insights/reference/sdk/cpp-event-data-types/front-end-pass.md
-            - name: 関数
+            - name: Function
               href: ../build-insights/reference/sdk/cpp-event-data-types/function.md
             - name: ImpLibOutput
               href: ../build-insights/reference/sdk/cpp-event-data-types/imp-lib-output.md
-            - name: 呼び出し
+            - name: Invocation
               href: ../build-insights/reference/sdk/cpp-event-data-types/invocation.md
             - name: InvocationGroup
               href: ../build-insights/reference/sdk/cpp-event-data-types/invocation-group.md
             - name: LibOutput
               href: ../build-insights/reference/sdk/cpp-event-data-types/lib-output.md
-            - name: リンカー
+            - name: Linker
               href: ../build-insights/reference/sdk/cpp-event-data-types/linker.md
             - name: LinkerGroup
               href: ../build-insights/reference/sdk/cpp-event-data-types/linker-group.md
@@ -163,7 +163,7 @@
               href: ../build-insights/reference/sdk/cpp-event-data-types/template-instantiation.md
             - name: TemplateInstantiationGroup
               href: ../build-insights/reference/sdk/cpp-event-data-types/template-instantiation-group.md
-            - name: スレッド
+            - name: Thread
               href: ../build-insights/reference/sdk/cpp-event-data-types/thread.md
             - name: TopDown
               href: ../build-insights/reference/sdk/cpp-event-data-types/top-down.md
